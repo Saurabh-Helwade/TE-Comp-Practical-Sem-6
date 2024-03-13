@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<body class="bg-light">
+ <form name="frmContact" class="needs-validation " method="post" action="insertphp.php">
+    <p>
+      <label for="txtName">Your Name </label>
+      <input type="text" class="form-control" name="txtName" id="txtName" value="" required>
+	  <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+    </p>
+    <p>
+      <label for="txtEmail">Your Email</label>
+      <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" value="" required>
+    </p>
+    <p>
+      <label for="txtPhone">Your Phone</label>
+      <input type="text"  class="form-control" name="txtPhone" id="txtPhone" value="" required>
+    </p>
+    <p>
+      <label for="txtMessage">Message</label>
+      <textarea name="txtMessage" class="form-control"  id="txtMessage"  required></textarea>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value="Click me to Contact"  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
+</body>
+</html>

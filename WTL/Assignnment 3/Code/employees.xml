@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="employees.xsl" type="text/xsl"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+
+<employees>
+  <employee>
+    <id>1</id>
+    <name>Nishant Chahar</name>
+    <department>IT</department>
+    <position>Software Engineer</position>
+    <salary>150000</salary>
+  </employee>
+  <employee>
+    <id>2</id>
+    <name>Rashmi Patidar</name>
+    <department>HR</department>
+    <position>HR Manager</position>
+    <salary>90000</salary>
+  </employee>
+  <employee>
+    <id>3</id>
+    <name>Jatin Agrawal</name>
+    <department>Finance</department>
+    <position>Financial Analyst</position>
+    <salary>80000</salary>
+  </employee>
+  <employee>
+    <id>4</id>
+    <name>Alice Brown</name>
+    <department>Marketing</department>
+    <position>Marketing Specialist</position>
+    <salary>70000</salary>
+  </employee>
+  <employee>
+    <id>5</id>
+    <name>Chris Wilson</name>
+    <department>Operations</department>
+    <position>Operations Manager</position>
+    <salary>85000</salary>
+  </employee>
+  <employee>
+    <id>6</id>
+    <name>Rohit Kulkarni</name>
+    <department>Sales</department>
+    <position>Data Analyst</position>
+    <salary>120000</salary>
+  </employee>
+  <employee>
+    <id>7</id>
+    <name>Harkirat Singh</name>
+    <department>IT</department>
+    <position>System Designer</position>
+    <salary>75000</salary>
+  </employee>
+</employees>
