@@ -71,8 +71,8 @@ if __name__ == '__main__':
 
 #Output :-
 
-Following is Depth First Traversal H -> E:
-H A D F B C E 
+# Following is Depth First Traversal H -> E:
+# H A D F B C E 
 
-Following is Breadth First Traversal H -> E:
-H A D B F C E 
+# Following is Breadth First Traversal H -> E:
+# H A D B F C E 
